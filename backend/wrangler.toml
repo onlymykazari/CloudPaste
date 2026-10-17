@@ -19,11 +19,10 @@ ADMIN_TOKEN_EXPIRY_DAYS = "7"
 # DEBUG_DRIVER_CACHE = "false"
 
 # 绑定D1数据库
-# 需要替换为实际的数据库ID
 [[d1_databases]]
 binding = "DB"
 database_name = "cloudpaste-db"
-database_id = "xxxxxxxxxxxxxxxxx"
+database_id = "56ce7576-14f5-4820-87fd-f6ffbe2e4f2c"
 
 # Cloudflare Workflows 绑定
 # 用于异步任务作业的持久化执行
